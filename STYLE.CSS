@@ -1,0 +1,67 @@
+#h1 {
+    text-align: center;
+}
+@media only screen and (min-width:700px){
+.row1 {
+    display: flex;
+
+}
+}
+
+.dull {
+    filter: brightness(40%);
+    
+}
+
+.center {
+    text-align: center;
+    align-self: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (min-width:700px){
+    .section1{
+        display: flex;
+    }
+    .data{
+        width: 50%;
+        margin-left: 10%;
+
+    }
+}
+.explore{
+    margin: 5%;
+
+}
+.color{
+    background-color: rgba(254, 239, 219, 0.757);
+}
+.profile{
+    display: inline;
+    text-align: center;
+    height: 100px;
+    border-radius: 50%;
+}
+.sectionfirst{
+background-color: rgba(254, 239, 219, 0.757);
+}
+.inside{
+    display: flex;
+}
+.coll{
+    margin: 1%;
+}
+@media only screen and (max-width:500px){
+    .coll1{
+           height: 120px;
+    }
+    .center{
+        font-size: 10px;
+    }
+    .pehli{
+        margin-left: 20%;
+    }
+}
